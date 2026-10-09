@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio · Networks & Security Student</title>
+  <meta name="description" content="Portfolio of a Networks and Security student at EST, Morocco: network labs, DNS, web services and troubleshooting.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a class="brand" href="#home">🛡️ <span data-name>Portfolio</span></a>
+      <ul id="navList">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div style="display:flex;gap:8px">
+        <button class="icon-btn" id="themeBtn" aria-label="Toggle theme"></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="container">
+      <span class="eyebrow" id="heroRole"></span>
+      <h1>Hi, I'm <span class="grad" data-name>Your Name</span>.<br>I build and secure networks.</h1>
+      <p id="heroTagline"></p>
+      <div class="badges" id="heroBadges"></div>
+      <div class="btns">
+        <a class="btn btn-primary" href="#projects">View my projects</a>
+        <a class="btn btn-ghost" href="#contact">Contact me</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <span class="eyebrow">About</span>
+      <h2 class="section-title">About me</h2>
+      <p class="section-sub">A little about who I am and what I'm working towards.</p>
+      <div class="about-grid">
+        <div class="about-text" id="aboutText"></div>
+        <div class="card"><ul class="facts" id="facts"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-alt">
+    <div class="container">
+      <span class="eyebrow">Projects</span>
+      <h2 class="section-title">Hands-on projects</h2>
+      <p class="section-sub">Each project has its own page with details and screenshots.</p>
+      <div class="grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <span class="eyebrow">Skills</span>
+      <h2 class="section-title">Technical skills</h2>
+      <p class="section-sub">Levels reflect where I honestly am today.</p>
+      <div class="skill-groups" id="skillGroups"></div>
+      <div class="legend"><span>● Beginner</span><span>●● Intermediate</span><span>●●● Advanced</span></div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-alt contact">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h2 class="section-title">Let's connect</h2>
+      <p>I'm open to learning opportunities and conversations about networks and security.</p>
+      <div class="btns">
+        <a class="btn btn-primary" data-linkedin target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" data-github target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" id="mailBtn" hidden>Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© <span data-year></span> <span data-name></span> · Networks &amp; Security · EST, Morocco</footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

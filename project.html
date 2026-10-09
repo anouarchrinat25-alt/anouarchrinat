@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project · Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a class="brand" href="index.html">🛡️ <span data-name>Portfolio</span></a>
+      <ul id="navList">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div style="display:flex;gap:8px">
+        <button class="icon-btn" id="themeBtn" aria-label="Toggle theme"></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container" id="projectMain" style="padding-bottom:80px"></main>
+
+  <div class="lightbox" id="lightbox"><img id="lbImg" alt=""><p id="lbCap"></p></div>
+
+  <footer>© <span data-year></span> <span data-name></span> · <a data-linkedin target="_blank" rel="noopener">LinkedIn</a> · <a data-github target="_blank" rel="noopener">GitHub</a></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
