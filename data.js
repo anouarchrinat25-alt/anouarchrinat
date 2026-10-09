@@ -113,14 +113,14 @@ window.PORTFOLIO = {
       ],
       // Images go in assets/projects/<id>/ . Missing files show a placeholder.
       screenshots: [
-        { file: "topology.png",       caption: "Network topology (192.168.1.0/24)" },
-        { file: "pc1-ip-config.png",  caption: "PC1 static IP configuration" },
-        { file: "dns1-ip-config.png", caption: "DNS1 static IP configuration" },
-        { file: "web1-ip-config.png", caption: "WEB1 static IP configuration" },
-        { file: "router-config.png",  caption: "Router R1 interface G0/0 configuration" },
-        { file: "ping-test.png",      caption: "Ping tests from PC1 to R1, DNS1 and WEB1" },
-        { file: "nslookup.png",       caption: "nslookup web.insto.ma resolves to 192.168.1.3" },
-        { file: "web-access.png",     caption: "HTTP access to http://web.insto.ma" }
+        { file: "./topology.png",       caption: "Network topology (192.168.1.0/24)" },
+        { file: "./pc1-ip-config.png",  caption: "PC1 static IP configuration" },
+        { file: "./dns1-ip-config.png", caption: "DNS1 static IP configuration" },
+        { file: "./web1-ip-config.png", caption: "WEB1 static IP configuration" },
+        { file: "./router-config.png",  caption: "Router R1 interface G0/0 configuration" },
+        { file: "./ping-test.png",      caption: "Ping tests from PC1 to R1, DNS1 and WEB1" },
+        { file: "./nslookup.png",       caption: "nslookup web.insto.ma resolves to 192.168.1.3" },
+        { file: "./web-access.png",     caption: "HTTP access to http://web.insto.ma" }
       ],
       links: [
         // { label: "Source files on GitHub", url: "https://github.com/..." }
